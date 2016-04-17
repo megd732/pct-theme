@@ -17,15 +17,11 @@
    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-   <!-- CSS
-   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/normalize.css">
-   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/skeleton.css">
-   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/blog.css">
-
    <!-- Favicon
    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    <link rel="icon" type="image/png" href="<?php bloginfo('template_directory');?>/images/favicon.png">
+
+   <?php wp_head(); ?>
    </head>
 
    <body>
