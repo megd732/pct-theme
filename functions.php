@@ -15,3 +15,7 @@ function pcthike_scripts() {
   wp_enqueue_style( 'blog', get_template_directory_uri() . '/css/blog.css' );
   wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
 }
+
+// Switch core markup for comments
+add_theme_support( 'html5', array(
+				  'comment-form', 'comment-list') );

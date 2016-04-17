@@ -298,9 +298,8 @@ select:focus {
 }
 
 /* Comment list */
-
 .comments-title {
-    text-transform: uppercase;
+    text-transfomr: so
 }
 
 .comment-list {

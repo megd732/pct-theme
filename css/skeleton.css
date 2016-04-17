@@ -173,7 +173,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #130f0f;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -182,9 +182,9 @@ input[type="button"] {
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
+  background-color: #EF8764;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: none;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -197,8 +197,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  background-color: #fff;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -236,8 +235,8 @@ textarea,
 select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
+  background-color: #130f0f;
+  border: 1px solid #EF8764;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
