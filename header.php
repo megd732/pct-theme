@@ -51,6 +51,9 @@
    <li class="navbar-item">
    <a class="navbar-link" href="/contact">contact</a>
    </li>
+   <li class="navbar-item">
+   <a class="navbar-link" href="/what-is-the-pct">the pct</a>
+   </li>
    </ul>
    </div>
    </nav>
