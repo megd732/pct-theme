@@ -310,12 +310,25 @@ select:focus {
     padding-bottom: 5rem;
 }
 
+.children {
+    list-style: none;
+}
+
+.comment-body {
+    padding: 1rem;
+    background-color: #1e1818;
+    border-radius: 4px;
+}
+
+.comment-metadata a {
+    font-weight: 300;
+}
+
 .comment-awaiting-moderation {
     font-style: italic;
 }
 
-.comment-author img {
-    float: left;
-    padding: 1rem;
+.comment-content {
+    margin-top: 3rem;
 }
 
