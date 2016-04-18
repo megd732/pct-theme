@@ -144,6 +144,12 @@ a img.aligncenter {
     color: #B27566;
 }
 
+.subscribe {
+    text-align: justify;
+    font-size: 1.25rem;
+    color: #B27566;
+}
+
 .content-title, .content-title a {
     font-weight: 100;
     text-transform: uppercase;
@@ -238,8 +244,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-    background-color: #E56D4C;
-    border-color: #E56D4C;
+    background-color: #EF8764;
+    border: none;
+    color: #130f0f;
 }
 
 .button.button-primary:hover,
@@ -252,8 +259,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-    background-color: #C44A2D;
-    border-color: #C44A2D;
+    background-color: #fff;
+    color: #130f0f;
 }
 
 .button:hover,
@@ -278,6 +285,12 @@ select:focus {
   border-color: #E56D4C; }
 
 /* Comment form */
+.comment-form {
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid #9B5431;
+}
+
 .comment-form-comment textarea {
     background-color: transparent;
 }
