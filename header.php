@@ -5,7 +5,7 @@
    <!-- Basic Page Needs
    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    <meta charset="utf-8">
-   <title>meg hikes</title>
+   <title>meg hikes the pct</title>
    <meta name="description" content="">
    <meta name="author" content="">
 
@@ -32,6 +32,7 @@
    <h3 class="lead">meg hikes the pct</h3>
    </section>
 
+   <a name="top"></a>
    <nav class="navbar">
    <div class="container">
    <ul class="navbar-list">
@@ -50,6 +51,10 @@
    <li class="navbar-item">
    <a class="navbar-link" href="/what-is-the-pct">the pct</a>
    </li>
+   <li class="navbar-item">
+     <a class="navbar-link" href="#subscribe">subscribe</a>
+   </li>
+
    </ul>
    </div>
    </nav>

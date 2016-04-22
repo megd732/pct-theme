@@ -19,3 +19,18 @@ function pcthike_scripts() {
 // Switch core markup for comments
 add_theme_support( 'html5', array(
 				  'comment-form', 'comment-list') );
+
+
+/* Register sidebars and widgetized areas */
+
+if (function_exists('register_sidebar')) {
+  register_sidebar(array(
+			 'name' => 'Widgetized Area',
+ 'id' => 'widgetized-area',
+ 'description' => 'this is a widgetized area',
+ 'before_widget' => '<div id="%1$s" class="widget %2$s">',
+ 'after_widget' => '</div>',
+			 'before_title' => '<h6>',
+ 'after_title' => '</h6>'
+));
+}
