@@ -14,6 +14,7 @@ function pcthike_scripts() {
   wp_enqueue_style( 'skeleton', get_template_directory_uri() . '/css/skeleton.css' );
   wp_enqueue_style( 'blog', get_template_directory_uri() . '/css/blog.css' );
   wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
+  wp_enqueue_script( 'custom', get_template_directory_uri() . 'js/custom.js', array('jquery'), null, true );
 }
 
 // Switch core markup for comments

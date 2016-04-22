@@ -21,7 +21,9 @@
    <!-- Favicon
    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    <link rel="icon" type="image/png" href="<?php bloginfo('template_directory');?>/images/favicon.png">
-
+   <!-- javascript because i am literally leaving on this hike and i can't figure out how to enqueue so here it is i just threw it in here I KNOW IT ISNT CONVENTION -->
+  <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
+   <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/custom.js"></script> 
    <?php wp_head(); ?>
    </head>
 
@@ -34,9 +36,13 @@
    </section>
 
    <a name="top"></a>
-   <nav class="navbar">
+   <nav id="navbar">
    <div class="container">
    <ul class="navbar-list">
+   <li class="navbar-item">
+   <a class="navbar-link menu-btn" id="menu-btn"><i class="fa fa-bars"></i> menu</a>
+   </li>
+   <div class="responsive-menu">
    <li class="navbar-item">
    <a class="navbar-link" href="http://pct.megdavis.net">home</a>
    </li>
@@ -55,7 +61,7 @@
    <li class="navbar-item">
      <a class="navbar-link" href="#subscribe">subscribe</a>
    </li>
-
+   </div>
    </ul>
    </div>
    </nav>

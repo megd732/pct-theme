@@ -185,11 +185,47 @@ body {
 }
 
 /* navbar */
-.navbar { 
+#navbar { 
     display: block;
     width: 100%;
     height: 5rem;
     margin-bottom: 5rem;
+}
+
+/* for responsive menu things */
+@media (max-width: 720px) {
+    .navbar-item {
+	display: block;
+	width: 100%;
+	height: 40px;
+	z-index: 99;
+    }
+    .navbar-item:last-child {
+	margin-bottom: 2rem;
+    }
+    .navbar-list {
+	display: block !important;
+    }
+    .menu-btn {
+	display: block !important;
+    }
+    .responsive-menu {
+	display: none;
+    }
+    #navbar {
+	height: 1rem;
+    }
+}
+.menu-btn {
+    display: none;
+}
+
+.expand {
+    display: block !important;
+}
+
+.menu-on {
+    color: #fff !important;
 }
 
 .navbar-list {
