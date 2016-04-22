@@ -214,6 +214,10 @@ body {
     line-height: 5rem;
 }
 
+.pagbar-link {
+    padding: 3rem;
+}
+
 .navbar-link {
     margin-right: 35px;
 }
